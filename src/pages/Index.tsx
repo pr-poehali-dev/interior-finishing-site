@@ -132,14 +132,16 @@ function Index() {
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="animate-fade-in">
-            <h1 className="font-montserrat font-bold text-5xl md:text-6xl text-white mb-6 leading-tight drop-shadow-2xl" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.8)'}}>
-              Отделочные работы
-              <span className="text-primary block drop-shadow-2xl">под ключ</span>
-            </h1>
-            <p className="text-xl text-white mb-8 max-w-2xl mx-auto drop-shadow-xl" style={{textShadow: '1px 1px 6px rgba(0,0,0,0.8)'}}>
-              Превратим ваше пространство в место мечты. Современный дизайн, качественные материалы, 
-              соблюдение сроков и гарантия результата.
-            </p>
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-8 mb-8 max-w-4xl mx-auto">
+              <h1 className="font-montserrat font-bold text-5xl md:text-6xl text-white mb-6 leading-tight drop-shadow-2xl" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.8)'}}>
+                Отделочные работы
+                <span className="text-primary block drop-shadow-2xl">под ключ</span>
+              </h1>
+              <p className="text-xl text-white mb-8 max-w-2xl mx-auto drop-shadow-xl" style={{textShadow: '1px 1px 6px rgba(0,0,0,0.8)'}}>
+                Превратим ваше пространство в место мечты. Современный дизайн, качественные материалы, 
+                соблюдение сроков и гарантия результата.
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 px-8 py-4 text-lg">
                 <Icon name="Calculator" size={20} className="mr-2" />
@@ -152,18 +154,20 @@ function Index() {
             </div>
           </div>
           
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in">
-            <div className="text-center">
-              <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>500+</div>
-              <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Завершённых проектов</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>7</div>
-              <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Лет опыта</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>100%</div>
-              <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Экологичные краски</div>
+          <div className="mt-8 bg-black/30 backdrop-blur-sm rounded-2xl p-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in">
+              <div className="text-center">
+                <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>500+</div>
+                <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Завершённых проектов</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>7</div>
+                <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Лет опыта</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-montserrat font-bold text-primary mb-2 drop-shadow-xl" style={{textShadow: '2px 2px 6px rgba(0,0,0,0.7)'}}>100%</div>
+                <div className="text-white drop-shadow-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.8)'}}>Экологичные краски</div>
+              </div>
             </div>
           </div>
         </div>
