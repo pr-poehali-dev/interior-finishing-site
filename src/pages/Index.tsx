@@ -118,14 +118,25 @@ function Index() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-gradient-to-br from-renovation-light via-white to-renovation-light py-20">
-        <div className="container mx-auto px-4 text-center">
+      <section id="home" className="relative py-20 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src="/img/063d807c-6d14-440a-897d-65cb9a02100a.jpg" 
+            alt="Маляр красит стену" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="animate-fade-in">
-            <h1 className="font-montserrat font-bold text-5xl md:text-6xl text-secondary mb-6 leading-tight">
+            <h1 className="font-montserrat font-bold text-5xl md:text-6xl text-white mb-6 leading-tight drop-shadow-lg">
               Отделочные работы
               <span className="text-primary block">под ключ</span>
             </h1>
-            <p className="text-xl text-renovation-gray mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow-md">
               Превратим ваше пространство в место мечты. Современный дизайн, качественные материалы, 
               соблюдение сроков и гарантия результата.
             </p>
@@ -144,15 +155,15 @@ function Index() {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in">
             <div className="text-center">
               <div className="text-4xl font-montserrat font-bold text-primary mb-2">500+</div>
-              <div className="text-renovation-gray">Завершённых проектов</div>
+              <div className="text-white/90 drop-shadow-md">Завершённых проектов</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-montserrat font-bold text-primary mb-2">7</div>
-              <div className="text-renovation-gray">Лет опыта</div>
+              <div className="text-white/90 drop-shadow-md">Лет опыта</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-montserrat font-bold text-primary mb-2">100%</div>
-              <div className="text-renovation-gray">Экологичные краски</div>
+              <div className="text-white/90 drop-shadow-md">Экологичные краски</div>
             </div>
           </div>
         </div>
