@@ -122,8 +122,8 @@ function Index() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/img/c50706c0-09b5-48ef-82f9-722a3efab8b7.jpg" 
-            alt="Маляр красит стену" 
+            src="/img/7ee479f9-b37e-471d-91a2-15229aa56793.jpg" 
+            alt="Профессиональный маляр с безвоздушным распылителем" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/20 to-transparent"></div>
