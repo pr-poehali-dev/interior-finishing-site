@@ -101,7 +101,7 @@ function Index() {
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="font-montserrat font-bold text-2xl text-secondary">
-            РемонтПро
+            Маляр.PRO
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#home" className="text-secondary hover:text-primary transition-colors">Главная</a>
@@ -382,7 +382,7 @@ function Index() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-montserrat font-bold text-2xl mb-4">РемонтПро</h3>
+              <h3 className="font-montserrat font-bold text-2xl mb-4">Маляр.PRO</h3>
               <p className="text-gray-300">
                 Профессиональные отделочные работы под ключ с гарантией качества и соблюдением сроков.
               </p>
@@ -421,7 +421,7 @@ function Index() {
           </div>
           <Separator className="my-8 bg-gray-600" />
           <div className="text-center text-gray-300">
-            <p>&copy; 2024 РемонтПро. Все права защищены.</p>
+            <p>&copy; 2024 Маляр.PRO. Все права защищены.</p>
           </div>
         </div>
       </footer>
