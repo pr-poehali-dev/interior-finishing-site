@@ -122,7 +122,7 @@ function Index() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/img/b770a15b-e568-4d19-ab1f-8e0b7551e288.jpg" 
+            src="/img/c50706c0-09b5-48ef-82f9-722a3efab8b7.jpg" 
             alt="Маляр красит стену" 
             className="w-full h-full object-cover"
           />
