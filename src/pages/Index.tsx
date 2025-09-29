@@ -141,7 +141,7 @@ function Index() {
             </div>
           </div>
           
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-in">
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in">
             <div className="text-center">
               <div className="text-4xl font-montserrat font-bold text-primary mb-2">500+</div>
               <div className="text-renovation-gray">Завершённых проектов</div>
@@ -149,6 +149,10 @@ function Index() {
             <div className="text-center">
               <div className="text-4xl font-montserrat font-bold text-primary mb-2">7</div>
               <div className="text-renovation-gray">Лет опыта</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-montserrat font-bold text-primary mb-2">100%</div>
+              <div className="text-renovation-gray">Экологичные краски</div>
             </div>
           </div>
         </div>
