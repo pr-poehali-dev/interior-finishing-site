@@ -124,9 +124,9 @@ function Index() {
           <img 
             src="/img/fed079a7-56b1-4fe3-b4b7-08dcd8f1094a.jpg" 
             alt="Процесс покраски стены безвоздушным распылителем" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-150"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-black/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/15 to-transparent"></div>
         </div>
         
         {/* Content */}
